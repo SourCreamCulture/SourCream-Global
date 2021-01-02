@@ -16,7 +16,7 @@
     "@discordjs/opus": "^0.3.3",
     "ffmpeg": "0.0.4",
     "fluent-ffmpeg": "^2.1.2",
-    "ytdl-core": "^4.2.0",
+    "ytdl-core": "^4.2.1",
     "ffmpeg-static": "^4.2.7",
     "yt-search": "^2.2.4",
     "opusscript": "^0.0.7",
@@ -26,6 +26,18 @@
     "ytpl": "^2.0.0-alpha.3",
     "node-opus": "^0.3.3",
     "lyrics-finder": "^21.4.0",
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "random": "2.2.0",
+    "common-tags": "^1.8.0",
+    "moment": "^2.26.0",
+    "moment-duration-format": "^2.2.2",
+    "parse-ms": "^2.0.0",
+    "quick.db": "^7.1.1",
+    "got": "^11.6.0",
+    "some-random-cat": "^2.2.0",
+    "quick.eco": "6.0.0",
+    "@quick.eco/sqlite": "1.0.4",
+    "nodemailer": "6.4.17",
+    "openweather-apis": "4.4.1"
   }
 }
