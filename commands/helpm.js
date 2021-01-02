@@ -1,4 +1,47 @@
-const { MessageEmbed } = require('discord.js')
+const { MessageEmbed } = require('discord.js');
+const { stripIndents } = require('common-tags');
+
+module.exports.run = async (bot, message, args) => {
+
+    let embed = new MessageEmbed()
+      .setTitle("**SourCreams Global Music Help**")
+      .setDescription(`➜ For help, join our **[Support Server](https://discord.gg/9nCn6y6s2p)**\n➜ **_about** for Information`)
+      .setThumbnail(`https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif`)
+      .addField("**Music**", stripIndents`
+      **\`_play <song> - to play a song\`**
+      **\`_pause - to pause the song\`**
+      **\`_playlist <playlist url> - to play a playlist on youtube\`**
+      **\`_loop - to loop the currently playing song\`**
+      **\`_resume - to resume playing the paused song\`**
+      **\`_shuffle - to shuffle the songs in the queue\`**
+      **\`_stop - to stop playing music\`**
+      **\`_volume - to change the songs volume\`**
+      **\`_skip - to skip the currently playing song\`**
+      **\`_skipto - to skip to a specific song in the queue\`**
+      `, true)
+      .addField("**Miscallaneous**", stripIndents`
+      **\`_afk - to have the bot not leave the voice channel when done playing\`**
+      **\`_lyrics - to get the lyrics of the currently playing song\`**
+      **\`_nowplaying - to see what is currently playing on the server\`**
+      **\`_queue - to see the queue of songs\`**
+      **\`_remove - to remove a song from the queue\`**
+      **\`_search - to search for a song\`**
+      **\`_search - to search for a song\`**
+      `, true)
+      .setColor("#E0E0D2")
+      .setFooter(`Prefix » _`)
+
+    message.channel.send(embed);
+
+}
+
+module.exports.help = {
+  name: "helpm",
+  aliases: ["servertags", "tags"]
+}
+
+
+/*const { MessageEmbed } = require('discord.js')
 
 module.exports = {
     info: {
@@ -40,4 +83,4 @@ Aliases: ${command.info.aliases.join(", ")}
             message.channel.send(commandinfo)
         }
     }
-}
+}*/
