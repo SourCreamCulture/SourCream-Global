@@ -21,15 +21,15 @@ module.exports = {
     if (!searchStringee) return message.channel.send("You didn't provide a message to send");
     
     var transporter = nodemailer.createTransport({
-  service: 'yahoo',
+  service: 'put what the meial service is here ex. yahoo, gmail...',
   auth: {
-    user: 'sourcreambot@yahoo.com',
-    pass: 'jsuroumlfolkpxfj'
+    user: 'put the email to send from here',
+    pass: 'put the email password here'
   }
 });
 
 var mailOptions = {
-  from: 'sourcreambot@yahoo.com',
+  from: 'put the sent from email here',
   to: searchStringe,
   subject: 'Sent from a discord bot',
   text: searchStringee
