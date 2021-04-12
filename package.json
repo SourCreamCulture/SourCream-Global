@@ -31,7 +31,7 @@
     "common-tags": "^1.8.0",
     "moment": "^2.26.0",
     "moment-duration-format": "^2.2.2",
-    "parse-ms": "^2.0.0",
+    "parse-ms": "^3.0.0",
     "quick.db": "^7.1.1",
     "got": "^11.6.0",
     "some-random-cat": "^2.2.0",
