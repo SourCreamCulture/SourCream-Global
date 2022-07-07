@@ -37,7 +37,7 @@
     "some-random-cat": "^2.2.0",
     "quick.eco": "6.0.0",
     "@quick.eco/sqlite": "1.0.4",
-    "nodemailer": "6.4.17",
+    "nodemailer": "6.7.7",
     "openweather-apis": "4.4.1"
   }
 }
