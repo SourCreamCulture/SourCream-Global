@@ -27,7 +27,7 @@
     "node-opus": "^0.3.3",
     "lyrics-finder": "^21.4.0",
     "axios": "^0.19.2",
-    "random": "2.2.0",
+    "random": "4.0.2",
     "common-tags": "^1.8.0",
     "moment": "^2.26.0",
     "moment-duration-format": "^2.2.2",
